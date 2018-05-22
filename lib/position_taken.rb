@@ -5,6 +5,8 @@ def position_taken?(board, index)
     return false
   elsif space=="X" or "O"
     return true
+  else
+    return nil
   end
   
 end
